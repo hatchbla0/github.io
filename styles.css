@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #008000;
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #ffffff;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.menu-column {
+  background-color: #008000;
+  width: 200px; /* Adjust the width of the column as needed */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 20px; /* Add padding to align the logo */
+}
+
+.logo {
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px; /* Center the logo and add margin below */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: block;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+nav ul li a:hover {
+  background-color: #005000; /* Darker green on hover */
+}
+
+.main {
+  float: left;
+  width: 70%; /* Adjust as needed */
+  padding: 20px 0;
+  margin-left: 220px; /* Adjust to account for menu column width */
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 50px; /* Adjust as needed */
+}
+
+.slideshow-slide {
+  display: none;
+}
+
+.slideshow-slide img {
+  width: 60%;
+  height: auto;
+}
+
+.contact-us {
+  float: right;
+  width: 30%; /* Adjust as needed */
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.contact-us h2 {
+  margin-top: 0;
+}
+
+.coach-info img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.contact-details p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #008000;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+.sponsors {
+  /* Add CSS for sponsors section here */
+}
