@@ -1,0 +1,160 @@
+/* Sidebar styles */
+.w3-sidebar {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.w3-white {
+    background-color: #fff;
+}
+
+.w3-bar-item {
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.w3-bar-item:hover {
+    background-color: #ddd;
+}
+
+.contact,
+.sponsors {
+    margin-top: 20px;
+}
+
+.contact h3,
+.sponsors h3 {
+    margin-top: 0;
+}
+
+.contact img,
+.sponsors img {
+    max-width: 100%;
+}
+
+/* Content styles */
+.content {
+    margin-left: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.w3-container {
+    text-align: center;
+}
+
+.text-above-slideshow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-above-slideshow h2 {
+    margin-top: 0;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideshow-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.w3-container:last-child {
+    margin-bottom: 20px;
+}
+
+/* Custom styles */
+.records-table {
+    margin-bottom: 20px;
+}
+
+.records-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.records-table th, .records-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.age-category-buttons {
+    margin-top: 20px;
+}
+
+.age-category-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.age-category-buttons button:hover {
+    background-color: #45a049;
+}
+.records-board {
+    margin: 20px;
+}
+
+.age-categories button {
+    margin-right: 10px;
+}
+
+#records-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#records-table th, #records-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#records-table th {
+    background-color: #f2f2f2;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+.links ul li {
+    margin-bottom: 10px;
+}
+.links ul li:before {
+    content: "\2022";  /* Bullet character */
+    color: #007bff; /* Bullet color */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.links ul li a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 0.5em;
+}
+/* Logo style */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
