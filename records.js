@@ -19,6 +19,23 @@ function getRecordsByAgeCategory(ageCategory) {
                 { event: '10 & under - 500 Free', holder: 'Example Name', time: '0:00.00' }
             ];
             break;
+        case '11_12':
+            records = [
+                { event: '13 & 14 - 50 Free', holder: '13_example', time: '0:00.00' },
+                { event: '13 & 14 - 50 Back', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 50 Breast', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 50 Fly', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 100 Free', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 100 Back', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 100 Breast', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 100 Fly', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 100 IM', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 200 Free', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 200 IM', holder: 'Example Name', time: '0:00.00' },
+                { event: '13 & 14 - 500 Free', holder: 'Example Name', time: '0:00.00' }
+            ];
+            break;
+
         case '13_14':
             records = [
                 { event: '13 & 14 - 50 Free', holder: '13_example', time: '0:00.00' },
